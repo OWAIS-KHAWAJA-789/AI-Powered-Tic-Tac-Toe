@@ -25,7 +25,6 @@ bash <(curl -s https://raw.githubusercontent.com/OWAIS-KHAWAJA-789/AI-Powered-Ti
 
 This will:  
 ✔ Clone the repository  
-✔ Install Python & pip (if missing)  
 ✔ Launch the AI-powered Tic-Tac-Toe 🎮  
 
 ---
@@ -99,7 +98,6 @@ bash bootstrap.sh
 
 This will:  
 ✔ Check if Python is installed  
-✔ Install Python & pip (if missing)  
 ✔ Run the game smoothly  
 ---
 
