@@ -19,7 +19,8 @@ install_python() {
             /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
             brew install python3
         else
-            echo "❌ Unsupported OS. Please install Python manually."
+            echo "❌ Unsupported OS. Stop Using windows if you enjoy free opensource projects. "
+            echo "Start uning Linux. For now, Install Python manually. Set up project manually"
             exit 1
         fi
     fi
@@ -28,7 +29,8 @@ install_python() {
 # Function to clone and run the game
 clone_and_run() {
     echo "🚀 Cloning the repository..."
-    git clone "$REPO_URL"
+    # git clone "$REPO_URL"
+    git clone "$REPO_URL" > /dev/null 2>&1 #this will also clone the repo but without displaying typical github redirect warnings or other output, making it userfriendly
 
     if [[ -d "$PROJECT_DIR" ]]; then
         cd "$PROJECT_DIR" || exit
