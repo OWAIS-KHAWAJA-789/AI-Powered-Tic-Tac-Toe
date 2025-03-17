@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/OWAIS-KHAWAJA-789/AI_TicTacToe.git"
-PROJECT_DIR="AI_TicTacToe"
+REPO_URL="http://github.com/OWAIS-KHAWAJA-789/AI-Powered-Tic-Tac-Toe"
+PROJECT_DIR="AI-Powered-Tic-Tac-Toe"
 
 # Function to check and install Python
 install_python() {
