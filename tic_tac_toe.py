@@ -1,10 +1,12 @@
 import math
 
 def print_board(board):
-    """Display the Tic-Tac-Toe board."""
+    """Display the Tic-Tac-Toe board with clear borders and spacing."""
+    print("\n=====================")
     for row in board:
-        print(" | ".join(row))
-        print("-" * 10)
+        print(" | ".join([cell if cell != ' ' else ' ' for cell in row]))
+        print("----------")
+    print("=====================\n")
 
 def is_winner(board, player):
     """Check if the given player has won the game."""
@@ -81,10 +83,9 @@ def find_best_move(board):
 def play_game():
     """Run the game loop allowing a human to play against the AI."""
     # Welcome message
-    print("Hey, Welcome to Tic-Tac-Toe by AP2KMO!")
-    print("Check out my open source projects on GitHub: github.com/OWAIS-KHAWAJA-789")
-    print("You are playing as 'X', and the AI is playing as player 'O'.")
-    print("To quit the game, enter 'c'. \n")
+    print("Welcome to Tic-Tac-Toe!")
+    print("You are playing as 'X', and the AI is playing as 'O'.")
+    print("To quit the game, enter 'c'.\n")
     
     board = [[' ' for _ in range(3)] for _ in range(3)]
     current_player = 'X'
@@ -93,6 +94,7 @@ def play_game():
         print_board(board)
         
         if current_player == 'X':
+            print("\nIt's your turn (Player X)!")
             # Get valid row input
             while True:
                 row_input = input("Enter the row (0, 1, or 2) or 'c' to quit: ")
@@ -131,6 +133,7 @@ def play_game():
                     break
             board[row][col] = 'X'
         else:
+            print("\nIt's the AI's turn (Player O)!")
             best_move = find_best_move(board)
             if best_move:
                 row, col = best_move
