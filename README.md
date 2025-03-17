@@ -20,7 +20,7 @@ Welcome to **AI-Powered Tic-Tac-Toe**, a Python-based game where you play agains
 To clone, set up, and run the game **instantly**, just run:  
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/OWAIS-KHAWAJA-789/AI_TicTacToe/main/bootstrap.sh)
+bash <(curl -s https://raw.githubusercontent.com/OWAIS-KHAWAJA-789/AI-Powered-Tic-Tac-Toe/refs/heads/main/bootstrap.sh)
 ```
 
 This will:  
