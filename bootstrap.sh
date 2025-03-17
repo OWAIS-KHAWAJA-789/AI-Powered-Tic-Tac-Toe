@@ -35,6 +35,10 @@ clone_and_run() {
     if [[ -d "$PROJECT_DIR" ]]; then
         cd "$PROJECT_DIR" || exit
         echo "🎮 Starting Tic-Tac-Toe..."
+        echo " "
+        echo " "
+        echo " "
+        echo " "
         python3 tic_tac_toe.py
     else
         echo "❌ Failed to clone repository!"
