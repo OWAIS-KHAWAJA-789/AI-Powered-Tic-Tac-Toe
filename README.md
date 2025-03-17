@@ -8,7 +8,7 @@ Welcome to **AI-Powered Tic-Tac-Toe**, a Python-based game where you play agains
 - [🎮 How to Play](#-how-to-play)  
 - [🛠 Features](#-features)  
 - [📂 Project Structure](#-project-structure)  
-- [🧠 Minimax Algorithm Explained](#-minimax-algorithm-explained)  
+- [🧠 minimax Algorithm Explained](#-minimax-algorithm-explained)  
 - [🚀 Manual Setup](#-manual-setup)  
 - [🤖 AI Strategy](#-ai-strategy)  
 - [📜 License](#-license)  
@@ -44,7 +44,7 @@ This will:
 ## 🛠 Features  
 ✅ **One-Command Setup** – No manual installation needed!  
 ✅ **Human vs. AI Gameplay** – Play against an AI that makes optimal moves.  
-✅ **Unbeatable AI** – Uses the **Minimax algorithm**, ensuring it never loses.  
+✅ **Unbeatable AI** – Uses the **minimax algorithm**, ensuring it never loses.  
 ✅ **Automatic Python Installation** – Works on **Linux & macOS**.  
 ✅ **Simple CLI Interface** – Just run and start playing!  
 ✅ **Error Handling** – Prevents invalid inputs and occupied cell selections.  
