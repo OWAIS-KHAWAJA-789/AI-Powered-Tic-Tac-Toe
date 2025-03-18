@@ -83,7 +83,8 @@ def find_best_move(board):
 def play_game():
     """Run the game loop allowing a human to play against the AI."""
     # Welcome message
-    print("Welcome to Tic-Tac-Toe!")
+    print("Welcome to unbeatable Tic-Tac-Toe BY AP2KMO!")
+    print("Checkout my other open source porcjects on github.com/OWAIS-KHAWAJA-789")
     print("You are playing as 'X', and the AI is playing as 'O'.")
     print("To quit the game, enter 'c'.\n")
     
